@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*!
+/*
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
@@ -339,12 +339,12 @@ select:disabled {
   display: none;
 }
 
-button,
+/* button,
 [type=button],
 [type=reset],
 [type=submit] {
   -webkit-appearance: button;
-}
+} */
 button:not(:disabled),
 [type=button]:not(:disabled),
 [type=reset]:not(:disabled),
@@ -401,7 +401,7 @@ legend + * {
 
 [type=search] {
   outline-offset: -2px;
-  -webkit-appearance: textfield;
+  /* -webkit-appearance: textfield; */
 }
 
 /* rtl:raw:
