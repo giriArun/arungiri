@@ -1,21 +1,26 @@
 import React from 'react'
+import Button from '../components/Button';
 //import DemoImage from '../images/two-dog.jpg';
-import aboutMeData from '../data/aboutMe.json';
+import AboutMeData from '../data/aboutMe.json';
 
 export default function AboutMe() {
-    const aboutData = aboutMeData[0];
+    const aboutData = AboutMeData[0];
     
     return (
         <div className="row about-me">
-            <div className="col-lg-6 col-md-12 px-0 d-lg-none d-inline-block d-flex flex-column align-items-center flex-lg-row bg-secondary">
+            <div className="col-lg-6 col-md-12 px-0 d-lg-none d-inline-block d-flex flex-column align-items-center flex-lg-row">
                 <div className="m-5">
-                    <h1>Hello</h1>
-                    <h3>A Bit About Me</h3>
-                    <p>I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+                    <div className='title-size mb-4'>{aboutData.title}</div>
+                    <div className='sub-title-size mb-2 slide-right'>{aboutData.subTitle}</div>
+                    <p className='w-75 lh-sm slide-left'>{aboutData.description}</p>
                     <div>
-                        <button>Click 1</button>
-                        <button>Click 2</button>
-                        <button>Click 3</button>
+                        {aboutData.button.map((button, index) => (
+                            <Button
+                                classes='slide-up rounded-circle me-2 my-2 shadow-none text-center about-button'
+                                text={button.name}
+                                icon=""
+                            />
+                        ))}
                     </div>
                 </div>
             </div>
@@ -29,12 +34,16 @@ export default function AboutMe() {
             <div className="col-lg-6 col-md-12 px-0 d-none d-lg-inline-block d-flex flex-column align-items-center flex-lg-row">
                 <div className="m-5 about-box-margin">
                     <div className='title-size mb-4'>{aboutData.title}</div>
-                    <div className='sub-title-size mb-2'>{aboutData.subTitle}</div>
-                    <p className='w-75 fw-light lh-sm'>{aboutData.description}</p>
+                    <div className='sub-title-size mb-2 slide-right'>{aboutData.subTitle}</div>
+                    <p className='w-75 lh-sm slide-left'>{aboutData.description}</p>
                     <div>
-                        <button>Click 1</button>
-                        <button>Click 2</button>
-                        <button>Click 3</button>
+                        {aboutData.button.map((button, index) => (
+                            <Button
+                                classes='slide-up rounded-circle me-2 shadow-none text-center about-button'
+                                text={button.name}
+                                icon=""
+                            />
+                        ))}
                     </div>
                 </div>
             </div>

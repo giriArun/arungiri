@@ -5,19 +5,19 @@
         "description": "I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.",
         "button": [
             {
-                "name": "Click Me 1",
+                "name": "Resume",
                 "link": "/adfa"
             },
             {
-                "name": "Click Me 2",
+                "name": "Projects",
                 "link": "/adfa"
             },
             {
-                "name": "Click Me 3",
+                "name": "Contact",
                 "link": "/adfa"
             }
         ],
-        "profileImage": "/static/media/two-dog.f08659109552a6cfce93.jpg",
+        "profileImage": "./img/profile_image.jpg",
         "profileImageName": "Arun Giri"
     }
 ]

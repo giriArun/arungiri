@@ -2,6 +2,9 @@
 	--main-text-color: #000000;
 	--main-bg-color: #f3f3f3;
     --image-bg-color: #cbcbcb;
+    --button-first-bg-color: #ffa500;
+    --button-second-bg-color: #00bfff;
+    --button-third-bg-color: #32c332;
 }
 
 html, body {
@@ -20,10 +23,53 @@ html, body {
     color: var(--main-text-color) !important;
 }
 
+/* animation start */
+.slide-up {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: slideUp 0.6s ease-out forwards;
+    animation-delay: 0.5s;
+}
+.slide-left {
+    opacity: 0;
+    transform: translateX(-60px);
+    animation: slideInFromLeft 0.7s ease-out forwards;
+    animation-delay: 0.3s;
+}
+
+.slide-right {
+    opacity: 0;
+    transform: translateX(60px);
+    animation: slideInFromRight 0.7s ease-out forwards;
+    animation-delay: 0.3s;
+}
+
+@keyframes slideUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInFromLeft {
+    to {
+    opacity: 1;
+    transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromRight {
+    to {
+    opacity: 1;
+    transform: translateX(0);
+    }
+}
+/* animation end */
+
 /* About Me page */
 .about-me .profile-image{
-  height: 300px;
-  width: 300px;
+    height: 300px;
+    width: 300px;
 }
 .about-me .title-size{
     font-size: 7cap;
@@ -36,67 +82,25 @@ html, body {
 .about-me .profile-image-bg{
     background-color: var(--image-bg-color);
 }
-
-
-/* X-Small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-    .about-me .profile-image{
-        height: 250px;
-        width: 250px;
-    }
+.about-me .about-button{
+    height: 120px;
+    width: 120px;
+    border: 1px solid var(--main-text-color);
+    font-size: 18px;
+    font-weight: 600;
 }
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
-    .about-me .profile-image{
-        height: 250px;
-        width: 250px;
-    }
+.about-me .about-button:nth-child(1) {
+  background-color: var(--button-first-bg-color);
 }
-
-/* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {  }
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-    .about-me .profile-image{
-        height: 300px;
-        width: 300px;
-    }
+.about-me .about-button:nth-child(2) {
+  background-color: var(--button-second-bg-color);
 }
-
-/* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {  }
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-    .about-me .profile-image{
-        height: 300px;
-        width: 300px;
-    }
-    .about-me .about-box-margin{
-        margin-top: 100px !important;
-        margin-bottom: 100px !important;
-    }
+.about-me .about-button:nth-child(3) {
+  background-color: var(--button-third-bg-color);
 }
-
-/* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {  }
-
-/* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    .about-me .profile-image{
-        height: 350px;
-        width: 350px;
-    }
-    .about-me .about-box-margin{
-        margin-top: 100px !important;
-        margin-bottom: 100px !important;
-    }
+.about-me .about-button:hover {
+    background-color: var(--main-bg-color);
 }
-
-/* X-Large devices (large desktops, less than 1400px) */
-@media (max-width: 1399.98px) { }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
@@ -105,7 +109,86 @@ html, body {
         width: 400px;
     }
     .about-me .about-box-margin{
-        margin-top: 80px !important;
-        margin-bottom: 80px !important;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+}
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { }
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .about-me .profile-image{
+        height: 350px;
+        width: 350px;
+    }
+    .about-me .about-box-margin{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+}
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {  }
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .about-me .profile-image{
+        height: 300px;
+        width: 300px;
+    }
+    .about-me .about-box-margin{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+}
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .about-me .title-size{
+        font-size: 6cap;
+    }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .about-me .profile-image{
+        height: 300px;
+        width: 300px;
+    }
+}
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .about-me .about-button{
+        height: 120px;
+        width: 120px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .about-me .profile-image{
+        height: 250px;
+        width: 250px;
+    }
+}
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .about-me .profile-image{
+        height: 250px;
+        width: 250px;
+    }
+    .about-me .title-size{
+        font-size: 5cap;
+    }
+    .about-me .about-button{
+        height: 100px;
+        width: 100px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+}
+@media (max-width: 399.98px) {
+    .about-me .about-button{
+        height: 70px;
+        width: 70px;
+        font-size: 12px;
+        font-weight: 700;
     }
 }
