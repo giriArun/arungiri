@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Phone",
+        "isLink": "p",
+        "info": [
+            "9547676205",
+            "9547676206"
+        ]
+    },
+    {
+        "title": "Email",
+        "isLink": "e",
+        "info": [
+            "giri.arun592@gmail.com",
+            "arungiri2011@hotmail.com"
+        ]
+    },
+    {
+        "title": "Follow Me",
+        "info": [
+            {
+                "icon": "test",
+                "link": "abc.com"
+            },
+            {
+                "icon": "test2",
+                "link": "abc.com 2"
+            }
+        ]
+    },
+    {
+        "title": "null",
+        "info": [
+            "2025 developed by Arun Giri",
+            "CV download"
+        ]
+    }
+]
