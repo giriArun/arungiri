@@ -1,7 +1,6 @@
 import React from 'react'
 import Button from '../components/Button';
-//import DemoImage from '../images/two-dog.jpg';
-import AboutMeData from '../data/aboutMe.json';
+import AboutMeData from '../data/AboutMe.json';
 
 export default function AboutMe() {
     const aboutData = AboutMeData[0];

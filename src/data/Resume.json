@@ -1,0 +1,112 @@
+[
+    {
+        "pageTitle": "Resume",
+        "types": [
+            {
+                "title": "Work<br/>Experience",
+                "data": [
+                    {
+                        "duration": "2017 - Present",
+                        "position": "Intern",
+                        "organization": "Defineway Technologys Privet Limited",
+                        "details": "hello world hello world hello world hello world"
+                    },
+                    {
+                        "duration": "2017 - Present",
+                        "position": "Intern",
+                        "organization": "sk collage of India",
+                        "details": "hello world hello world hello world hello world"
+                    },
+                    {
+                        "duration": "2017 - Present",
+                        "position": "Intern",
+                        "organization": "sk collage of India",
+                        "details": "hello world hello world hello world hello world"
+                    }
+                ]
+            },
+            {
+                "title": "Education",
+                "data": [
+                    {
+                        "duration": "2017 - Present",
+                        "position": "Intern",
+                        "organization": "sk collage of India",
+                        "details": "hello world hello world hello world hello world"
+                    },
+                    {
+                        "duration": "2017 - Present",
+                        "position": "Intern",
+                        "organization": "",
+                        "details": "hello world hello world hello world hello world"
+                    },
+                    {
+                        "duration": "2017 - Present",
+                        "position": "Intern",
+                        "organization": "sk collage of India",
+                        "details": "hello world hello world hello world hello world"
+                    }
+                ]
+            },
+            {
+                "title": "Skills<br/>& Expertise",
+                "data": [
+                    {
+                        "duration": "jul 2017 - jul 2018",
+                        "position": "Intern",
+                        "details": "hello world hello world hello world hello world"
+                    },
+                    {
+                        "duration": "2017 - Present",
+                        "position": "Intern",
+                        "details": "hello world hello world hello world hello world"
+                    },
+                    {
+                        "duration": "2017 - Present",
+                        "position": "Intern",
+                        "details": "hello world hello world hello world hello world"
+                    }
+                ]
+            },
+            {
+                "title": "Skills & Expertise",
+                "data": [
+                    {
+                        "duration": "2017 - Present",
+                        "position": "Intern",
+                        "details": "hello world hello world hello world hello world"
+                    },
+                    {
+                        "duration": "2017 - Present",
+                        "position": "Intern",
+                        "details": "hello world hello world hello world hello world"
+                    },
+                    {
+                        "duration": "2017 - Present",
+                        "position": "Intern",
+                        "details": "hello world hello world hello world hello world"
+                    }
+                ]
+            },
+            {
+                "title": "Skills & Expertise",
+                "data": [
+                    {
+                        "position": "Intern",
+                        "details": "hello world hello world hello world hello world"
+                    },
+                    {
+                        "duration": "2017 - Present",
+                        "position": "Intern",
+                        "details": "hello world hello world hello world hello world"
+                    },
+                    {
+                        "duration": "2017 - Present",
+                        "position": "Intern",
+                        "details": "hello world hello world hello world hello world"
+                    }
+                ]
+            }
+        ]
+    }
+]

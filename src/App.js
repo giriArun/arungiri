@@ -35,9 +35,10 @@ import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+
 import AboutMe from './pages/AboutMe';
+import Resume from './pages/Resume';
 import Home from './pages/Home';
-import About from './pages/About';
 import Contact from './pages/Contact';
 
 //import abc from './pages/About';
@@ -52,8 +53,8 @@ function App() {
             <main className="flex-grow-1 container py-4 px-0">
                 <Routes>
                   <Route path="/" element={<AboutMe />} />
+                  <Route path="/resume" element={<Resume />} />
                   <Route path="/home" element={<Home />} />
-                  <Route path="/about" element={<About />} />
                   <Route path="/contact" element={<Contact />} />
                 </Routes>
             </main>
