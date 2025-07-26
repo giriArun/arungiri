@@ -33,3 +33,20 @@ root.render(
     <App />
   </BrowserRouter>
 );
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+          }
+        });
+      }, {
+        threshold: 0.1
+      });
+
+      document.querySelectorAll('.slide-right').forEach(el => {
+        observer.observe(el);
+      });
+    });

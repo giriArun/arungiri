@@ -26,53 +26,17 @@ html, body {
 .text-second-color{
     color: var(--main-second-text-color) !important;
 }
+.progress-bar-bg-color{
+    background-color: var(--main-second-text-color) !important;
+}
+.fw-5{
+    font-weight: 500 !important;
+}
 .page-title{
     font-size: 5cap;
     font-weight: 700;
 }
 
-/* animation start */
-.slide-up {
-    opacity: 0;
-    transform: translateY(20px);
-    animation: slideUp 0.6s ease-out forwards;
-    animation-delay: 0.5s;
-}
-.slide-left {
-    opacity: 0;
-    transform: translateX(-60px);
-    animation: slideInFromLeft 0.7s ease-out forwards;
-    animation-delay: 0.3s;
-}
-
-.slide-right {
-    opacity: 0;
-    transform: translateX(60px);
-    animation: slideInFromRight 0.7s ease-out forwards;
-    animation-delay: 0.3s;
-}
-
-@keyframes slideUp {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes slideInFromLeft {
-    to {
-    opacity: 1;
-    transform: translateX(0);
-    }
-}
-
-@keyframes slideInFromRight {
-    to {
-    opacity: 1;
-    transform: translateX(0);
-    }
-}
-/* animation end */
 
 /* About Me page */
 .about-me .profile-image{
@@ -115,55 +79,60 @@ html, body {
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
     .about-me .profile-image{
-        height: 400px;
-        width: 400px;
+        height: 425px;
+        width: 425px;
     }
     .about-me .about-box-margin{
-        margin-top: 80px;
-        margin-bottom: 80px;
+        margin-top: 80px !important;
+        margin-bottom: 80px !important;
     }
 }
 /* X-Large devices (large desktops, less than 1400px) */
-@media (max-width: 1399.98px) { }
+@media (max-width: 1399.98px) {
+    .about-me .profile-image{
+        height: 400px;
+        width: 400px;
+    }
+}
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    .about-me .profile-image{
-        height: 350px;
-        width: 350px;
-    }
     .about-me .about-box-margin{
-        margin-top: 100px;
-        margin-bottom: 100px;
+        margin-top: 100px !important;
+        margin-bottom: 100px !important;
     }
 }
 /* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {  }
+@media (max-width: 1199.98px) {
+    .about-me .profile-image{
+        height: 375px;
+        width: 375px;
+    }
+}
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    .about-me .profile-image{
-        height: 300px;
-        width: 300px;
-    }
     .about-me .about-box-margin{
-        margin-top: 100px;
-        margin-bottom: 100px;
+        margin-top: 100px !important;
+        margin-bottom: 100px !important;
     }
 }
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
+    .about-me .profile-image{
+        height: 375px;
+        width: 375px;
+    }
     .about-me .title-size{
         font-size: 6cap;
     }
 }
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-    .about-me .profile-image{
-        height: 300px;
-        width: 300px;
-    }
-}
+@media (min-width: 768px) {}
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+    .about-me .profile-image{
+        height: 325px;
+        width: 325px;
+    }
     .about-me .about-button{
         height: 120px;
         width: 120px;
@@ -176,17 +145,12 @@ html, body {
     }
 }
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
-    .about-me .profile-image{
-        height: 250px;
-        width: 250px;
-    }
-}
+@media (min-width: 576px) {}
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     .about-me .profile-image{
-        height: 250px;
-        width: 250px;
+        height: 300px;
+        width: 300px;
     }
     .about-me .title-size{
         font-size: 5cap;
@@ -199,10 +163,61 @@ html, body {
     }
 }
 @media (max-width: 399.98px) {
+    .about-me .profile-image{
+        height: 250px;
+        width: 250px;
+    }
     .about-me .about-button{
         height: 70px;
         width: 70px;
         font-size: 12px;
         font-weight: 700;
     }
+}
+
+/* animation start */
+.reveal {
+  opacity: 0;
+  transition: all 0.6s ease-out;
+}
+
+.reveal.from-right {
+  transform: translateX(100px);
+}
+
+.reveal.from-right.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.reveal.from-left {
+  transform: translateX(-100px);
+}
+
+.reveal.from-left.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.reveal.from-bottom {
+  transform: translateY(50px);
+}
+
+.reveal.from-bottom.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal.from-top {
+  transform: translateY(-50px);
+}
+
+.reveal.from-top.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal.show {
+  opacity: 1;
+  transform: translateY(0);
 }

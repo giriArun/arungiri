@@ -6,22 +6,16 @@
                 "title": "Work<br/>Experience",
                 "data": [
                     {
-                        "duration": "2017 - Present",
-                        "position": "Intern",
-                        "organization": "Defineway Technologys Privet Limited",
-                        "details": "hello world hello world hello world hello world"
+                        "duration": "Nov 2019 - Present",
+                        "position": "Senior Software Engineer / Developer",
+                        "organization": "Defineway Technologies Private Limited",
+                        "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
                     },
                     {
-                        "duration": "2017 - Present",
-                        "position": "Intern",
-                        "organization": "sk collage of India",
-                        "details": "hello world hello world hello world hello world"
-                    },
-                    {
-                        "duration": "2017 - Present",
-                        "position": "Intern",
-                        "organization": "sk collage of India",
-                        "details": "hello world hello world hello world hello world"
+                        "duration": "Jul 2017 - Oct 2019",
+                        "position": "Junior Software Engineer / Developer",
+                        "organization": "Defineway Technologies Private Limited",
+                        "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
                     }
                 ]
             },
@@ -29,42 +23,75 @@
                 "title": "Education",
                 "data": [
                     {
-                        "duration": "2017 - Present",
-                        "position": "Intern",
-                        "organization": "sk collage of India",
-                        "details": "hello world hello world hello world hello world"
+                        "duration": "Aug 2014 - Jun 2017",
+                        "position": "B.Tech (CSE)",
+                        "organization": "Modern Institute of Engineering & Technology",
+                        "details": "Bachelor of Technology in COMPUTER SCIENCE & ENGINEERING with 7.27 DGPA from MAULANA ABUL KALAM AZAD UNIVERSITY OF TECHNOLOGY, WEST BENGAL."
                     },
                     {
-                        "duration": "2017 - Present",
-                        "position": "Intern",
-                        "organization": "",
-                        "details": "hello world hello world hello world hello world"
+                        "duration": "Jul 2010 - May 2012",
+                        "position": "Diploma (CST)",
+                        "organization": "Kanyapur Polytechnic",
+                        "details": "Diploma in COMPUTER SCIENCE & TECHNOLOGY with 72.5% from WBSCTE."
                     },
                     {
-                        "duration": "2017 - Present",
-                        "position": "Intern",
-                        "organization": "sk collage of India",
-                        "details": "hello world hello world hello world hello world"
+                        "duration": "May 2008 - Feb 2010",
+                        "position": "HS",
+                        "organization": "Contai Kshetramohan Vidyabhaban",
+                        "details": "12th with 79% from WBSCVET."
+                    },
+                    {
+                        "duration": "Mar 2003 - Feb 2008",
+                        "position": "Madhyamik",
+                        "organization": "Nayaput Sudhir Kumar High School",
+                        "details": "10th with 62% from WBBSE."
                     }
                 ]
             },
             {
                 "title": "Skills<br/>& Expertise",
-                "data": [
+                "skill": [
                     {
-                        "duration": "jul 2017 - jul 2018",
-                        "position": "Intern",
-                        "details": "hello world hello world hello world hello world"
+                        "skillName": "MSSQL",
+                        "percentageLevel": "90"
                     },
                     {
-                        "duration": "2017 - Present",
-                        "position": "Intern",
-                        "details": "hello world hello world hello world hello world"
+                        "skillName": "MySQL",
+                        "percentageLevel": "90"
                     },
                     {
-                        "duration": "2017 - Present",
-                        "position": "Intern",
-                        "details": "hello world hello world hello world hello world"
+                        "skillName": "JQuery",
+                        "percentageLevel": "90"
+                    },
+                    {
+                        "skillName": "ColdFusion",
+                        "percentageLevel": "90"
+                    },
+                    {
+                        "skillName": "PHP",
+                        "percentageLevel": "75"
+                    }
+                ],
+                "other": [
+                    {
+                        "skillName": "MSSQL",
+                        "percentageLevel": "90"
+                    },
+                    {
+                        "skillName": "MySQL",
+                        "percentageLevel": "90"
+                    },
+                    {
+                        "skillName": "JQuery",
+                        "percentageLevel": "90"
+                    },
+                    {
+                        "skillName": "ColdFusion",
+                        "percentageLevel": "90"
+                    },
+                    {
+                        "skillName": "PHP",
+                        "percentageLevel": "75"
                     }
                 ]
             },
@@ -73,25 +100,6 @@
                 "data": [
                     {
                         "duration": "2017 - Present",
-                        "position": "Intern",
-                        "details": "hello world hello world hello world hello world"
-                    },
-                    {
-                        "duration": "2017 - Present",
-                        "position": "Intern",
-                        "details": "hello world hello world hello world hello world"
-                    },
-                    {
-                        "duration": "2017 - Present",
-                        "position": "Intern",
-                        "details": "hello world hello world hello world hello world"
-                    }
-                ]
-            },
-            {
-                "title": "Skills & Expertise",
-                "data": [
-                    {
                         "position": "Intern",
                         "details": "hello world hello world hello world hello world"
                     },
