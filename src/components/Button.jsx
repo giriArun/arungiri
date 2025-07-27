@@ -1,28 +1,12 @@
-export default function Button(
-    {
-        classes,
-        endIcon,
-        id,
-        onClick,
-        startIcon,
-        text,
-        type,
-        isDisabled = false
-    }
-) {
-    const alertMissingHandler = () => window.alert("Attach an event handler to the Button!");
-
+export default function Button({ classes, text, type, style, onClick, icon }) {
+    const alertMissingHandler = () => window.alert("Add event handler to the Button!");
+    
     return (
-        <button
-            type={type ? type : "button"}
-            className={`btn ${classes ? classes : "btn-primary"}`}
-            id={id}
-            disabled={isDisabled}
-            onClick={onClick ? onClick : alertMissingHandler}
-        >
-            {startIcon}
-            {text ? text : "Click Me"}
-            {endIcon}
+        <button type={type} className={`btn ${classes}`} style={style} onClick={onClick ? onClick : alertMissingHandler}>
+            <div className='d-flex justify-content-center'>
+                {icon}
+                {text ? text : "Click Me"}
+            </div>
         </button>
     );
 }
