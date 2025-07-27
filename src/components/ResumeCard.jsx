@@ -42,7 +42,7 @@ export default function ResumeCard({ dataObject, children, className = '', trigg
                                         <div className="col-lg-4 col-md-12">{data.duration}</div>
                                         <div className="col-lg-8 col-md-12 mb-2">
 
-                                            {data.position ? <div className={`fs-5 fw-bold mb-2 reveal from-right ${visible ? 'show' : ''} ${className}`}>{data.position}</div>:''}
+                                            {data.position ? <div className={`fs-5 fw-bold mb-2 me-5 reveal from-right ${visible ? 'show' : ''} ${className}`}>{data.position}</div>:''}
                                             {data.organization ? <div className={`fs-5 fw-bold mb-2 text-second-color reveal ${visible ? 'show' : ''} ${className}`}>{data.organization}</div>:''}
                                             {data.details ? <p className='w-75 lh-sm'>{data.details}</p>:''}
                                             
@@ -56,7 +56,7 @@ export default function ResumeCard({ dataObject, children, className = '', trigg
                                     <div className="row gx-0" key={s_index}>
                                         <div className="col-lg-4 col-md-12"></div>
                                         <div className="col-lg-3 col-md-12 mb-2">
-                                            <div className={`fw-5 reveal from-right ${visible ? 'show' : ''} ${className}`}>{skill.skillName}</div>
+                                            <div className={`fw-5 me-5 reveal from-right ${visible ? 'show' : ''} ${className}`}>{skill.skillName}</div>
                                         </div>
                                         <div className="col-lg-5 col-md-12 mb-3">
                                             <div className="progress">

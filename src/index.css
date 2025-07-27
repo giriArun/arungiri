@@ -2,6 +2,7 @@
 	--main-text-color: #000000;
 	--main-second-text-color: #666666;
 	--main-bg-color: #f3f3f3;
+	--main-second-bg-color: #ffffff;
     --image-bg-color: #cbcbcb;
     --button-first-bg-color: #ffa500;
     --button-second-bg-color: #00bfff;
@@ -36,6 +37,14 @@ html, body {
     font-size: 5cap;
     font-weight: 700;
 }
+.my-btn{
+    color: var(--main-text-color) !important;
+}
+.my-btn:hover{
+    color: var(--main-second-text-color) !important;
+    background-color: var(--main-second-bg-color) !important;
+}
+
 
 
 /* About Me page */
@@ -182,7 +191,7 @@ html, body {
 }
 
 .reveal.from-right {
-  transform: translateX(100px);
+  transform: translateX(50px);
 }
 
 .reveal.from-right.show {
@@ -191,7 +200,7 @@ html, body {
 }
 
 .reveal.from-left {
-  transform: translateX(-100px);
+  transform: translateX(-50px);
 }
 
 .reveal.from-left.show {

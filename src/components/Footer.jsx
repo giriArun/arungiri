@@ -11,7 +11,7 @@ export default function Footer() {
 
                     {footerData.map((section, index) => (
                         <div className='col-md-6 col-lg-3 col-xl-3 px-0' key={index}>
-                            <div className='px-5 py-3 d-flex justify-content-md-start justify-content-center'>
+                            <div className='px-5 py-3 d-flex justify-content-md-start justify-content-center text-md-start text-center'>
                                 <div>
                                     {section.title && <div className='fs-4 fw-bold mb-2'>{section.title}</div>}
                                     {section.info.map((item, idx) => (
