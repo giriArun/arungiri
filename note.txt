@@ -2,6 +2,8 @@
 
 
 npm install html-react-parser
+npm install react-simple-typewriter
+
 
 
 

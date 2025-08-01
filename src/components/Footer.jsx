@@ -1,8 +1,10 @@
-import footerData from '../data/Footer.json';
+import ContactData from '../data/Contact.json';
 
 export default function Footer() {
+    const footerData = ContactData[0].footerInfo;
+    
     return (
-        <footer className="pt-5 pb-4">
+        <footer className="pt-5 pb-2">
             <div className="container-fluid text-md-left px-0">
                 <div className="row text-md-left g-0">
                     <div className='col-12'>
@@ -35,6 +37,9 @@ export default function Footer() {
                         </div>
                     ))}
 
+                    <div className='col-12 text-center fw-lighter last_update'>
+                        {ContactData[0].lastUpDate}
+                    </div>
                 </div>
             </div>
         </footer>

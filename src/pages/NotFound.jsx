@@ -1,8 +1,13 @@
+import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Button from '../components/Button';
 
 export default function NotFound() {
     const navigate = useNavigate();
+
+    useEffect(() => {
+        document.title = 'Page not found';
+    }, []);
 
     function redirectURL( link ){
         navigate( link );

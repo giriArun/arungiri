@@ -85,6 +85,21 @@ html, body {
 
 /* Resume page */
 
+/* project_card */
+.project_card .more_option_box{
+    background-color: var(--main-bg-color);
+}
+.project_card .project-image-bg{
+    background-color: var(--image-bg-color);
+}
+/* end project_card */
+
+/* Footer */
+footer .last_update{
+    font-size: 1cap;
+}
+/* end footer */
+
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
     .about-me .profile-image{

@@ -1,0 +1,50 @@
+[
+    {
+        "pageTitle": "Projects",
+        "projectList": [
+            {
+                "title": "Work Experience",
+                "duration": "Nov 2019 - Present",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "data": [
+                ]
+            },
+            {
+                "title": "Education",
+                "duration": "Nov 2019 - Present",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "data": [
+                ]
+            },
+            {
+                "title": "Skills<br/>& Expertise",
+                "subTitle": "",
+                "duration": "Nov 2019 - Present",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "contributing": [
+                ]
+            },
+            {
+                "title": "Springboard",
+                "subTitle": "Laundry service",
+                "duration": "Sep 2017 - Mar 2018",
+                "link": "https://www.happynest.com/",
+                "image": "./img/project_springboard_happy_nest.jpg",
+                "description": "Springboard is the proprietary cloud-based software developed by HappyNest. It powers the entire HappyNest platform—handling order management, routing, scheduling, billing, and analytics. It's used exclusively by HappyNest and its laundromat partners, and is not available as a standalone product to external businesses.",
+                "contributing": [
+                    "MySQL database managed, created and query optimization.",
+                    "Built and management API for Website, Android and IOS App.",
+                    "Worked on the front end in the website.",
+                    "Worked on the Payment gateway.",
+                    "Worked on ionic with angular for App."
+                ],
+                "technology": [
+                    "ColdFusion",
+                    "MySQL",
+                    "Ionic",
+                    "Angular"
+                ]
+            }
+        ]
+    }
+]

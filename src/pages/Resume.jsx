@@ -1,8 +1,13 @@
+import { useEffect } from 'react';
 import ResumeData from '../data/Resume.json';
 import ResumeCard from '../components/ResumeCard';
 
 export default function Resume() {
     const resume = ResumeData[0];
+
+    useEffect(() => {
+        document.title = resume.pageTitle;
+    }, []);
 
     return (
         <div className="row gx-0 resume">
