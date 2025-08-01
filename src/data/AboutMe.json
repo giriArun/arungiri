@@ -15,11 +15,11 @@
             },
             {
                 "name": "Projects",
-                "link": "/adfa"
+                "link": "/projects"
             },
             {
                 "name": "Contact",
-                "link": "/adfa"
+                "link": "/contact"
             }
         ],
         "profileImage": "./img/profile_image.jpg",

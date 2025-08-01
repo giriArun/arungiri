@@ -8,7 +8,7 @@ import Navbar from './components/Navbar';
 
 import AboutMe from './pages/AboutMe';
 import Resume from './pages/Resume';
-import Home from './pages/Home';
+import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
 
@@ -23,7 +23,7 @@ function App() {
                 <Routes>
                   <Route path="/" element={<AboutMe />} />
                   <Route path="/resume" element={<Resume />} />
-                  <Route path="/home" element={<Home />} />
+                  <Route path="/projects" element={<Projects />} />
                   <Route path="/contact" element={<Contact />} />
                   <Route path="*" element={<NotFound/>} />
                 </Routes>
