@@ -39,11 +39,11 @@ export default function ResumeCard({ dataObject, children, className = '', trigg
                                 {dataObject.data && dataObject.data.map((data, idx) => (
 
                                     <div className="row gx-0" key={idx}>
-                                        <div className="col-lg-4 col-md-12">{data.duration}</div>
-                                        <div className="col-lg-8 col-md-12 mb-2">
+                                        <div className="col-lg-4 col-md-12 mb-2">{data.duration}</div>
+                                        <div className="col-lg-8 col-md-12 mb-4">
 
                                             {data.position ? <div className={`fs-5 fw-bold mb-2 me-5 reveal from-right ${visible ? 'show' : ''} ${className}`}>{data.position}</div>:''}
-                                            {data.organization ? <div className={`fs-5 fw-bold mb-2 text-second-color reveal ${visible ? 'show' : ''} ${className}`}>{data.organization}</div>:''}
+                                            {data.organization ? <div className={`fs-6 fw-bold mb-2 text-second-color reveal ${visible ? 'show' : ''} ${className}`}>{data.organization}</div>:''}
                                             {data.details ? <p className='w-75 lh-sm'>{data.details}</p>:''}
                                             
                                         </div>
